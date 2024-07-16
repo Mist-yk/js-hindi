@@ -27,3 +27,28 @@ const myfunction = function(){
 }
 
 console.log(typeof bigNumber)
+
+
+
+
+
+// Stack (Primitive), Heap(Non primitive)
+
+let myYoutubename = "Ajaynegi"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userone ={
+    email: "me@gmail.com",
+    upi:"suer1",
+}
+
+let usertwo = userone
+
+usertwo.email ="ajay@google.com"
+
+console.log(userone.email)
+console.log(usertwo.email)
