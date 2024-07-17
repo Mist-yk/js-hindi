@@ -28,3 +28,15 @@ const url = "https://ajay.com/ajay20%negi"
  console.log(url.includes('ajay'))
 
  console.log(gameName.split(' '));
+
+ //const text = "5";
+ //const padded = text.padStart(4,"x");
+ //console.log(padded);
+
+//  const text = "ajay"
+//  console.log(text.repeat(3))
+
+let text = "I love her a little"
+text = text.replaceAll("little" , "little much");
+console.log(text);
+
