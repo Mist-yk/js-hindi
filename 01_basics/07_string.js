@@ -36,7 +36,7 @@ const url = "https://ajay.com/ajay20%negi"
 //  const text = "ajay"
 //  console.log(text.repeat(3))
 
-let text = "I love her a little"
+let text = "I loved her a little"
 text = text.replaceAll("little" , "little much");
 console.log(text);
 
