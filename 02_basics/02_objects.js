@@ -25,12 +25,63 @@ const JsUser ={
 // JsUser.email ="fkr8328"
 // console.log(JsUser);
 
-JsUser.greeting = function(){
-    console.log("halooooooo")
-}
-JsUser.greetingtwo = function(){
-    console.log(`halooooooo, ${this.name}`)
-}
+// JsUser.greeting = function(){
+//     console.log("halooooooo")
+// }
+// JsUser.greetingtwo = function(){
+//     console.log(`halooooooo, ${this.name}`)
+// }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingtwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingtwo());
+
+
+//OBJECTS 2
+
+//const tinderUser = new Object()//singleton
+const tinderUser ={}//non singleton
+
+tinderUser.id = "123abc"
+tinderUser.name = "wam"
+tinderUser.isLoggedIn = false
+
+//console.log(tinderUser);
+
+const regularUser ={
+    email : "asdad89",
+    fullname:{
+        userfullname:{
+            firstname :"akjay",
+            lastname :"negi"
+        }
+    }
+}
+//console.log(regularUser.fullname.userfullname)
+
+const obj1 ={1:"a",2:"b"}
+const obj2 ={3:"c",4:"d"}
+
+//const obj3 =Object.assign({},obj1,obj2)
+const obj3 = {...obj1,...obj2}
+//console.log(obj3);
+
+const user =[
+{
+    id:"asdad",
+    nam:"sada"
+
+},
+{
+    id:"asdad",
+    nam:"sada"
+
+},
+]
+user[1].id
+console.log(tinderUser)
+
+console.log(Object.keys(tinderUser))
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))
