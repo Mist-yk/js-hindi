@@ -33,3 +33,17 @@
 //   default:
 //     console.log("learn to live with yourself");
 // }
+
+
+
+// //Number is even of oddd
+
+// let num = prompt("Enter a number");
+// num = Number.parseInt(num);
+
+// if(num%2==0){
+//   alert("even number");
+// }
+// else {
+//   alert("number is odd");
+// }
