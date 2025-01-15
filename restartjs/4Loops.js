@@ -38,3 +38,15 @@
 // for(let b of "ajay"){
 //   console.log(b);
 // }
+
+
+
+// //while loop
+// let n = prompt("Enter the value of n")
+// let i=1;
+// while(i<=10){
+//   if(n%3==0){
+//     alert("The number is divisible by 3");
+//   }
+//   i++
+// }
